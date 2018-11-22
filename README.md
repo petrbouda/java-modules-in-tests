@@ -10,8 +10,15 @@
 $ mvn clean test -X
 
 .
-[DEBUG] test classpath:  /Users/pbouda/experimental/java-modules-in-tests/module-app/target/test-classes  /Users/pbouda/experimental/java-modules-in-tests/module-test/target/classes  /Users/pbouda/.m2/repository/junit/junit/4.12/junit-4.12.jar  /Users/pbouda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
-[DEBUG] test modulepath:  /Users/pbouda/experimental/java-modules-in-tests/module-app/target/classes  /Users/pbouda/experimental/java-modules-in-tests/module-library/target/classes
+[DEBUG] test classpath:  
+    /Users/pbouda/experimental/java-modules-in-tests/module-app/target/test-classes  
+    /Users/pbouda/experimental/java-modules-in-tests/module-test/target/classes  
+    /Users/pbouda/.m2/repository/junit/junit/4.12/junit-4.12.jar  
+    /Users/pbouda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+    
+[DEBUG] test modulepath:  
+    /Users/pbouda/experimental/java-modules-in-tests/module-app/target/classes  
+    /Users/pbouda/experimental/java-modules-in-tests/module-library/target/classes
 .
 .
 [INFO] Running test.ModulesTest
