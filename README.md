@@ -6,7 +6,6 @@
 - The classpath is occupied by code which belongs to `test scope` by default
 - Module-path contains all modules and automatic modules from our project
 
-
 ```
 $ mvn clean test -X
 
@@ -74,3 +73,5 @@ com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 test.ModulesTe
 - JVM can detect only package split between two modules placed on module-path
 - In the case of `PACKAGE SPLIT` between classpath and module-path, module-path has a priority and classes in the same package from classpath are not discovered
 - IntelliJ puts everything on classpath which does not track package split and is able to discover all classes
+
+==> IN GENERAL: By adding the classpath into a play we automatically violates `RELIABLE CONFIGURATION` => Compiler cannot check our dependencies/modules at compile time.
