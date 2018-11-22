@@ -1,6 +1,6 @@
 # Java Modules in Tests
 
-### How SUREFIRE PLUGIN starts JVM?
+### How does SUREFIRE PLUGIN start JVM?
 
 - Surefire plugin creates both, classpath and module-path
 - The classpath is occupied by code which belongs to `test scope` by default
@@ -53,7 +53,7 @@ Caused by: java.lang.ClassNotFoundException: pbouda.modules.TestComponent
 
 ```
 
-### How INTELLIJ IDEA starts JVM? (Running tests directly from INTELLIJ)
+### How does INTELLIJ IDEA start JVM? (Running tests directly from INTELLIJ)
 
 - IntelliJ chooses different approach, it puts everything on classpath even my modularized project.
 
